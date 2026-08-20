@@ -1,0 +1,33 @@
+@TodoList.Api_HostAddress = http://localhost:5027
+
+### Create TodoList 
+POST {{TodoList.Api_HostAddress}}/api/todoList
+Content-Type: application/json
+
+{
+    "header": "Do Breakfast",
+    "detail": "Boiled Eggs, Avocados, Milk",
+    "completedbefore": "2026-08-19"
+}
+
+### Get TodoList Item By Id
+
+GET {{TodoList.Api_HostAddress}}/api/todoList/1
+
+
+### Get Entire List of TodoItem
+
+GET {{TodoList.Api_HostAddress}}/api/todoList
+
+
+
+### Delete TodoItem
+
+DELETE {{TodoList.Api_HostAddress}}/api/todoList/1
+
+
+
+
+
+
+

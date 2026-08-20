@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="TodoList.Api.IntegrationTests/TodoList.Api.IntegrationTests.csproj" />
+  <Project Path="TodoList.Api.Tests/TodoList.Api.UnitTests.csproj" />
+  <Project Path="TodoList.Api/TodoList.Api.csproj" />
+</Solution>
